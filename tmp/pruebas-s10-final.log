@@ -1,0 +1,282 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:Actividad01 >-----------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Actividad01 ---
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Actividad01 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 78 source files with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Actividad01 ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ Actividad01 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 7 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] /C:/UNIVERSIDAD/LP2/SEMANA10/tarea05/src/test/java/com/example/Actividad01/SeguridadIntegrationTest.java: Some input files use or override a deprecated API.
+[INFO] /C:/UNIVERSIDAD/LP2/SEMANA10/tarea05/src/test/java/com/example/Actividad01/SeguridadIntegrationTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ Actividad01 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running pe.edu.upeu.vetandes.Actividad01ApplicationTests
+10:31:12.055 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.Actividad01ApplicationTests]: Actividad01ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:31:12.413 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.Actividad01ApplicationTests
+10:31:12.776 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.Actividad01ApplicationTests]: Actividad01ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:31:12.783 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.Actividad01ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.7)
+
+2026-10-16T10:31:14.129-05:00  INFO 1768 --- [Actividad01] [           main] c.e.A.Actividad01ApplicationTests        : Starting Actividad01ApplicationTests using Java 21.0.10 with PID 1768 (started by jomac in C:\UNIVERSIDAD\LP2\SEMANA10\tarea05)
+2026-10-16T10:31:14.133-05:00  INFO 1768 --- [Actividad01] [           main] c.e.A.Actividad01ApplicationTests        : The following 1 profile is active: "test"
+2026-10-16T10:31:17.499-05:00  INFO 1768 --- [Actividad01] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-16T10:31:17.732-05:00  INFO 1768 --- [Actividad01] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 203 ms. Found 8 JPA repository interfaces.
+2026-10-16T10:31:19.473-05:00  INFO 1768 --- [Actividad01] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-16T10:31:19.774-05:00  INFO 1768 --- [Actividad01] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-10-16T10:31:21.080-05:00  INFO 1768 --- [Actividad01] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-16T10:31:21.183-05:00  INFO 1768 --- [Actividad01] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-16T10:31:21.723-05:00  INFO 1768 --- [Actividad01] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:pharma-tests user=SA
+2026-10-16T10:31:21.723-05:00  INFO 1768 --- [Actividad01] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-16T10:31:21.774-05:00  WARN 1768 --- [Actividad01] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-16T10:31:21.813-05:00  INFO 1768 --- [Actividad01] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:pharma-tests]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: PHARMA-TESTS/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-16T10:31:23.618-05:00  INFO 1768 --- [Actividad01] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-16T10:31:23.709-05:00  INFO 1768 --- [Actividad01] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-16T10:31:23.926-05:00  INFO 1768 --- [Actividad01] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-16T10:31:25.270-05:00  INFO 1768 --- [Actividad01] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name usuarioDetailsService
+2026-10-16T10:31:27.363-05:00  WARN 1768 --- [Actividad01] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-16T10:31:29.825-05:00  INFO 1768 --- [Actividad01] [           main] c.e.A.Actividad01ApplicationTests        : Started Actividad01ApplicationTests in 16.818 seconds (process running for 20.112)
+2026-10-16T10:31:29.834-05:00  WARN 1768 --- [Actividad01] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-16T10:31:29.834-05:00  WARN 1768 --- [Actividad01] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\jomac\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.82 s -- in pe.edu.upeu.vetandes.Actividad01ApplicationTests
+[INFO] Running pe.edu.upeu.vetandes.CategoriaServiceRulesTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.635 s -- in pe.edu.upeu.vetandes.CategoriaServiceRulesTest
+[INFO] Running security.pe.edu.upeu.vetandes.JwtServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.730 s -- in security.pe.edu.upeu.vetandes.JwtServiceTest
+[INFO] Running security.pe.edu.upeu.vetandes.MigracionesSeguridadTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.050 s <<< FAILURE! -- in security.pe.edu.upeu.vetandes.MigracionesSeguridadTest
+[ERROR] security.pe.edu.upeu.vetandes.MigracionesSeguridadTest.esquemaYUsuariosInicialesSonConsistentes -- Time elapsed: 0.041 s <<< ERROR!
+org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #2 of Byte array resource [resource loaded from byte array]: create unique index ux_categorias_nombre on categorias (upper(nombre))
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:293)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:188)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:150)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:126)
+	at security.pe.edu.upeu.vetandes.MigracionesSeguridadTest.esquemaYUsuariosInicialesSonConsistentes(MigracionesSeguridadTest.java:21)
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "create unique index ux_categorias_nombre on categorias (upper[*](nombre))"; se esperaba "ASC, DESC, NULLS, ,, )"
+Syntax error in SQL statement "create unique index ux_categorias_nombre on categorias (upper[*](nombre))"; expected "ASC, DESC, NULLS, ,, )"; SQL statement:
+create unique index ux_categorias_nombre on categorias (upper(nombre)) [42001-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.getSyntaxError(DbException.java:261)
+	at org.h2.command.ParserBase.getSyntaxError(ParserBase.java:762)
+	at org.h2.command.ParserBase.read(ParserBase.java:369)
+	at org.h2.command.ParserBase.readIfMore(ParserBase.java:637)
+	at org.h2.command.Parser.parseIndexColumnList(Parser.java:1127)
+	at org.h2.command.Parser.parseCreate(Parser.java:6556)
+	at org.h2.command.Parser.parsePrepared(Parser.java:648)
+	at org.h2.command.Parser.parse(Parser.java:584)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:487)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:647)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:563)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1160)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 4 more
+
+[INFO] Running security.pe.edu.upeu.vetandes.PermisosPorRolTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 s -- in security.pe.edu.upeu.vetandes.PermisosPorRolTest
+[INFO] Running pe.edu.upeu.vetandes.SeguridadIntegrationTest
+2026-10-16T10:31:33.515-05:00  INFO 1768 --- [Actividad01] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.SeguridadIntegrationTest]: SeguridadIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-16T10:31:33.526-05:00  INFO 1768 --- [Actividad01] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.SeguridadIntegrationTest
+2026-10-16T10:31:33.526-05:00  INFO 1768 --- [Actividad01] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.SeguridadIntegrationTest]: SeguridadIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-16T10:31:33.534-05:00  INFO 1768 --- [Actividad01] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.SeguridadIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.7)
+
+2026-10-16T10:31:34.068-05:00  INFO 1768 --- [Actividad01] [           main] c.e.A.SeguridadIntegrationTest           : Starting SeguridadIntegrationTest using Java 21.0.10 with PID 1768 (started by jomac in C:\UNIVERSIDAD\LP2\SEMANA10\tarea05)
+2026-10-16T10:31:34.068-05:00  INFO 1768 --- [Actividad01] [           main] c.e.A.SeguridadIntegrationTest           : The following 1 profile is active: "test"
+2026-10-16T10:31:34.622-05:00  INFO 1768 --- [Actividad01] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-16T10:31:34.664-05:00  INFO 1768 --- [Actividad01] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 8 JPA repository interfaces.
+2026-10-16T10:31:35.107-05:00  INFO 1768 --- [Actividad01] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-10-16T10:31:35.140-05:00  INFO 1768 --- [Actividad01] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-16T10:31:35.140-05:00  INFO 1768 --- [Actividad01] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-10-16T10:31:35.264-05:00  INFO 1768 --- [Actividad01] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1190 ms
+2026-10-16T10:31:35.439-05:00  INFO 1768 --- [Actividad01] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-16T10:31:35.495-05:00  INFO 1768 --- [Actividad01] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-16T10:31:35.497-05:00  INFO 1768 --- [Actividad01] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-10-16T10:31:35.499-05:00  INFO 1768 --- [Actividad01] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn11: url=jdbc:h2:mem:pharma-tests user=SA
+2026-10-16T10:31:35.499-05:00  INFO 1768 --- [Actividad01] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-10-16T10:31:35.500-05:00  WARN 1768 --- [Actividad01] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-16T10:31:35.501-05:00  INFO 1768 --- [Actividad01] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:pharma-tests]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: PHARMA-TESTS/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-16T10:31:35.657-05:00  INFO 1768 --- [Actividad01] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-16T10:31:35.694-05:00  INFO 1768 --- [Actividad01] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-16T10:31:35.798-05:00  INFO 1768 --- [Actividad01] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name usuarioDetailsService
+2026-10-16T10:31:36.044-05:00  WARN 1768 --- [Actividad01] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-16T10:31:36.612-05:00  INFO 1768 --- [Actividad01] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 57348 (http) with context path '/'
+2026-10-16T10:31:36.624-05:00  INFO 1768 --- [Actividad01] [           main] c.e.A.SeguridadIntegrationTest           : Started SeguridadIntegrationTest in 2.642 seconds (process running for 26.909)
+2026-10-16T10:31:36.627-05:00  WARN 1768 --- [Actividad01] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-16T10:31:36.627-05:00  WARN 1768 --- [Actividad01] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-16T10:31:36.944-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-16T10:31:36.944-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-16T10:31:36.946-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-16T10:31:37.183-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:38.470-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=inactivo
+2026-10-16T10:31:38.704-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-3] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=noexiste
+2026-10-16T10:31:38.957-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=vendedor
+2026-10-16T10:31:39.198-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=vendedor roles=[VENDEDOR]
+2026-10-16T10:31:39.330-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-6] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=vendedor
+2026-10-16T10:31:39.574-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-6] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=vendedor roles=[VENDEDOR]
+2026-10-16T10:31:39.591-05:00  WARN 1768 --- [Actividad01] [o-auto-1-exec-7] c.e.A.security.RestAccessDeniedHandler   : Acceso denegado: DELETE /api/v1/productos/1 usuario=vendedor
+2026-10-16T10:31:39.640-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=vendedor
+2026-10-16T10:31:39.857-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=vendedor roles=[VENDEDOR]
+2026-10-16T10:31:39.934-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=almacen
+2026-10-16T10:31:40.176-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=almacen roles=[ALMACENERO]
+2026-10-16T10:31:40.194-05:00  WARN 1768 --- [Actividad01] [o-auto-1-exec-1] c.e.A.security.RestAccessDeniedHandler   : Acceso denegado: POST /api/v1/ventas usuario=almacen
+2026-10-16T10:31:40.247-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=almacen
+2026-10-16T10:31:40.478-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=almacen roles=[ALMACENERO]
+2026-10-16T10:31:40.499-05:00  WARN 1768 --- [Actividad01] [o-auto-1-exec-9] c.e.A.security.RestAccessDeniedHandler   : Acceso denegado: GET /api/v1/clientes usuario=almacen
+2026-10-16T10:31:40.525-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:40.716-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:40.734-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] c.e.A.service.impl.ReporteServiceImpl    : Inicio reporte ventas por categoria | desde=null | hasta=null
+2026-10-16T10:31:40.794-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] c.e.A.service.impl.ReporteServiceImpl    : Fin reporte ventas por categoria | desde=null | hasta=null | filas=0 | duracionMs=60
+2026-10-16T10:31:40.824-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-5] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=supervisor
+2026-10-16T10:31:41.015-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-5] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=supervisor roles=[ALMACENERO, VENDEDOR]
+2026-10-16T10:31:41.060-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=vendedor
+2026-10-16T10:31:41.282-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=vendedor roles=[VENDEDOR]
+2026-10-16T10:31:41.294-05:00  WARN 1768 --- [Actividad01] [o-auto-1-exec-7] c.e.A.security.RestAccessDeniedHandler   : Acceso denegado: GET /api/v1/usuarios usuario=vendedor
+2026-10-16T10:31:41.325-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:41.509-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:41.573-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:41.748-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:41.794-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=vendedor
+2026-10-16T10:31:41.964-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=vendedor roles=[VENDEDOR]
+2026-10-16T10:31:41.964-05:00  WARN 1768 --- [Actividad01] [o-auto-1-exec-1] c.e.A.security.JwtAuthenticationFilter   : Token inv�lido en /api/v1/productos: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2026-10-16T10:31:42.034-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:42.202-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:42.280-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.UsuarioServiceImpl    : Registrando usuario=cajera_d26899f4 empleadoId=6 rolIds=[999]
+2026-10-16T10:31:42.358-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.UsuarioServiceImpl    : Registrando usuario=cajera_d26899f4 empleadoId=6 rolIds=[2]
+2026-10-16T10:31:42.557-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.UsuarioServiceImpl    : Usuario registrado id=6 usuario=cajera_d26899f4 roles=[VENDEDOR]
+2026-10-16T10:31:42.584-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=cajera_d26899f4
+2026-10-16T10:31:42.709-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-1] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=cajera_d26899f4 roles=[VENDEDOR]
+2026-10-16T10:31:42.719-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-5] c.e.A.service.impl.UsuarioServiceImpl    : Registrando usuario=cajera_d26899f42 empleadoId=6 rolIds=[2]
+2026-10-16T10:31:42.740-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-6] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=supervisor
+2026-10-16T10:31:42.857-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-6] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=supervisor roles=[ALMACENERO, VENDEDOR]
+2026-10-16T10:31:42.894-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-7] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=vendedor
+2026-10-16T10:31:43.011-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-7] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=vendedor roles=[VENDEDOR]
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.550 s -- in pe.edu.upeu.vetandes.SeguridadIntegrationTest
+[INFO] Running pe.edu.upeu.vetandes.VentasIntegrationTest
+2026-10-16T10:31:43.066-05:00  INFO 1768 --- [Actividad01] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.VentasIntegrationTest]: VentasIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-16T10:31:43.066-05:00  INFO 1768 --- [Actividad01] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.VentasIntegrationTest
+2026-10-16T10:31:43.069-05:00  INFO 1768 --- [Actividad01] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.VentasIntegrationTest]: VentasIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-16T10:31:43.071-05:00  INFO 1768 --- [Actividad01] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.VentasIntegrationTest
+2026-10-16T10:31:43.088-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:43.204-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:43.268-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.ClienteServiceImpl    : Registrando cliente con DNI=47437260
+2026-10-16T10:31:43.279-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.ClienteServiceImpl    : Cliente registrado correctamente id=1
+2026-10-16T10:31:43.542-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:43.673-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:43.694-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.ClienteServiceImpl    : Registrando cliente con DNI=93338912
+2026-10-16T10:31:43.694-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.ClienteServiceImpl    : Cliente registrado correctamente id=2
+2026-10-16T10:31:43.807-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:43.918-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:43.941-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.ClienteServiceImpl    : Registrando cliente con DNI=83151715
+2026-10-16T10:31:43.944-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-8] c.e.A.service.impl.ClienteServiceImpl    : Cliente registrado correctamente id=3
+2026-10-16T10:31:44.024-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-5] c.e.A.service.impl.ReporteServiceImpl    : Inicio reporte ventas por categoria | desde=null | hasta=null
+2026-10-16T10:31:44.034-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-5] c.e.A.service.impl.ReporteServiceImpl    : Fin reporte ventas por categoria | desde=null | hasta=null | filas=2 | duracionMs=10
+2026-10-16T10:31:44.064-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:44.199-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-4] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:44.214-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-7] c.e.A.service.impl.ClienteServiceImpl    : Registrando cliente con DNI=81393224
+2026-10-16T10:31:44.224-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-7] c.e.A.service.impl.ClienteServiceImpl    : Cliente registrado correctamente id=4
+2026-10-16T10:31:44.324-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-5] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:44.438-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-5] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:44.472-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-13] c.e.A.service.impl.ClienteServiceImpl    : Registrando cliente con DNI=26295877
+2026-10-16T10:31:44.475-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-13] c.e.A.service.impl.ClienteServiceImpl    : Cliente registrado correctamente id=5
+2026-10-16T10:31:44.619-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-3] c.e.A.service.impl.ReporteServiceImpl    : Inicio reporte ventas por categoria | desde=null | hasta=null
+2026-10-16T10:31:44.623-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-3] c.e.A.service.impl.ReporteServiceImpl    : Fin reporte ventas por categoria | desde=null | hasta=null | filas=3 | duracionMs=4
+2026-10-16T10:31:44.641-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:44.764-05:00  INFO 1768 --- [Actividad01] [o-auto-1-exec-2] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:44.790-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.ClienteServiceImpl    : Registrando cliente con DNI=88940598
+2026-10-16T10:31:44.794-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-10] c.e.A.service.impl.ClienteServiceImpl    : Cliente registrado correctamente id=6
+2026-10-16T10:31:44.822-05:00  WARN 1768 --- [Actividad01] [o-auto-1-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot coerce Floating-point value (2.5) to `java.lang.Integer` value (but could if coercion was enabled using `CoercionConfig`)]
+2026-10-16T10:31:44.864-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-13] c.e.A.service.impl.AuthServiceImpl       : Intento de inicio de sesi�n: usuario=admin
+2026-10-16T10:31:44.983-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-13] c.e.A.service.impl.AuthServiceImpl       : Inicio de sesi�n correcto: usuario=admin roles=[ADMIN]
+2026-10-16T10:31:45.007-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-11] c.e.A.service.impl.ClienteServiceImpl    : Registrando cliente con DNI=10011127
+2026-10-16T10:31:45.011-05:00  INFO 1768 --- [Actividad01] [-auto-1-exec-11] c.e.A.service.impl.ClienteServiceImpl    : Cliente registrado correctamente id=7
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.026 s -- in pe.edu.upeu.vetandes.VentasIntegrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   MigracionesSeguridadTest.esquemaYUsuariosInicialesSonConsistentes:21 � ScriptStatementFailed Failed to execute SQL script statement #2 of Byte array resource [resource loaded from byte array]: create unique index ux_categorias_nombre on categorias (upper(nombre))
+[INFO] 
+[ERROR] Tests run: 40, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  54.749 s
+[INFO] Finished at: 2026-10-16T10:31:45-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.6:test (default-test) on project Actividad01: 
+[ERROR] 
+[ERROR] See C:\UNIVERSIDAD\LP2\SEMANA10\tarea05\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

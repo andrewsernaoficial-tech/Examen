@@ -1,0 +1,33 @@
+app:
+  jwt:
+    secret: ${JWT_SECRET:i9TX08UfAfKy97Ackzx+2ZhJxwkkrjB3RoF2XbJrMPV6XYTcddWp2nmF27okKj0T}
+    expiracion-minutos: 60
+  cors:
+    allowed-origins: http://localhost:4200,http://127.0.0.1:4200
+
+server:
+  port: 8080
+
+spring:
+  flyway:
+    baseline-on-migrate: true
+    baseline-version: 1
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1522/freepdb1
+    username: VETANDES
+    password: 123456
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.OracleDialect
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    enabled: true

@@ -1,0 +1,23 @@
+spring:
+  flyway:
+    enabled: false
+  datasource:
+    url: jdbc:h2:mem:pharma-tests;MODE=Oracle;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:seguridad-datos.sql
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: false
+
+app:
+  jwt:
+    secret: i9TX08UfAfKy97Ackzx+2ZhJxwkkrjB3RoF2XbJrMPV6XYTcddWp2nmF27okKj0T
+    expiracion-minutos: 60

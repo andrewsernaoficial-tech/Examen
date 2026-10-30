@@ -1,0 +1,14 @@
+package pe.edu.upeu.vetandes.enums;
+
+
+public enum Permiso {
+    PRESTACION_LEER,
+    PRESTACION_ESCRIBIR,
+    MASCOTA_LEER,
+    MASCOTA_ESCRIBIR,
+    ATENCION_LEER,
+    ATENCION_REGISTRAR,
+    ATENCION_ANULAR,
+    REPORTE_VER,
+    USUARIOS_ADMINISTRAR
+}

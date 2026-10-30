@@ -1,0 +1,81 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:Actividad01 >-----------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Actividad01 ---
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Actividad01 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 78 source files with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Actividad01 ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ Actividad01 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] /C:/UNIVERSIDAD/LP2/SEMANA10/tarea05/src/test/java/com/example/Actividad01/VentasIntegrationTest.java: C:\UNIVERSIDAD\LP2\SEMANA10\tarea05\src\test\java\com\example\Actividad01\VentasIntegrationTest.java uses or overrides a deprecated API.
+[INFO] /C:/UNIVERSIDAD/LP2/SEMANA10/tarea05/src/test/java/com/example/Actividad01/VentasIntegrationTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ Actividad01 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running pe.edu.upeu.vetandes.Actividad01ApplicationTests
+10:27:40.567 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.Actividad01ApplicationTests]: Actividad01ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:27:40.704 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.Actividad01ApplicationTests
+10:27:40.817 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [pe.edu.upeu.vetandes.Actividad01ApplicationTests]: Actividad01ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:27:40.819 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.vetandes.Actividad01Application for test class pe.edu.upeu.vetandes.Actividad01ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.7)
+
+2026-10-16T10:27:41.320-05:00  INFO 17052 --- [Actividad01] [           main] c.e.A.Actividad01ApplicationTests        : Starting Actividad01ApplicationTests using Java 21.0.10 with PID 17052 (started by jomac in C:\UNIVERSIDAD\LP2\SEMANA10\tarea05)
+2026-10-16T10:27:41.322-05:00  INFO 17052 --- [Actividad01] [           main] c.e.A.Actividad01ApplicationTests        : The following 1 profile is active: "test"
+2026-10-16T10:27:42.891-05:00  INFO 17052 --- [Actividad01] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-16T10:27:43.109-05:00  INFO 17052 --- [Actividad01] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 197 ms. Found 8 JPA repository interfaces.
+2026-10-16T10:27:44.643-05:00  INFO 17052 --- [Actividad01] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-16T10:27:44.832-05:00  INFO 17052 --- [Actividad01] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-10-16T10:27:46.186-05:00  INFO 17052 --- [Actividad01] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-16T10:27:46.277-05:00  INFO 17052 --- [Actividad01] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-16T10:27:46.954-05:00  INFO 17052 --- [Actividad01] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:pharma-tests user=SA
+2026-10-16T10:27:46.958-05:00  INFO 17052 --- [Actividad01] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-16T10:27:47.012-05:00  WARN 17052 --- [Actividad01] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-16T10:27:47.070-05:00  INFO 17052 --- [Actividad01] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:pharma-tests]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: PHARMA-TESTS/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-16T10:27:49.612-05:00  INFO 17052 --- [Actividad01] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-16T10:27:49.782-05:00  INFO 17052 --- [Actividad01] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-16T10:27:50.153-05:00  INFO 17052 --- [Actividad01] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-16T10:27:52.049-05:00  INFO 17052 --- [Actividad01] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name usuarioDetailsService
+2026-10-16T10:27:53.824-05:00  WARN 17052 --- [Actividad01] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-16T10:27:55.972-05:00  INFO 17052 --- [Actividad01] [           main] c.e.A.Actividad01ApplicationTests        : Started Actividad01ApplicationTests in 15.075 seconds (process running for 16.545)
+2026-10-16T10:27:55.983-05:00  WARN 17052 --- [Actividad01] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-16T10:27:55.983-05:00  WARN 17052 --- [Actividad01] [           main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\jomac\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ExamenVetAndes
+  profiles:
+    active: dev
+  jackson:
+    deserialization:
+      accept-float-as-int: false
